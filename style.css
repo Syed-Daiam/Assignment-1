@@ -57,7 +57,36 @@ body{
 }
 .recipies-area p{
     padding: 10px;
-    
+}
+.recipies-item{
+    box-shadow: 0px 0px 15px rgb(219, 219, 219);
+    border: 10px solid white;
+    border-radius: 15px;
+    margin: 20px;
+}
+.recipies-item img{
+    border-image: 20px;
+    width: 100%;
+}
+.recipies-item h3{
+    font-size: 10px;
+}
+.end-part{
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    padding-bottom: 80px;
+    margin-top: 100px;
+}
+.end-part h3{
+    color: grey;
+    padding-top: 30px;
+}
+.close-part{
+    color: rgba(214, 219, 218, 0.863);
+    background-color: rgba(58, 85, 126, 0.836);
+    background-position: center;
+    font-size: 10px;
 }
 
 

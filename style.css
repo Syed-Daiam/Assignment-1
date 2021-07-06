@@ -1,44 +1,64 @@
 body{
     font-family: 'Montserrat', sans-serif;
-    margin-left: auto;
-    margin-right: auto;
     width: 1024px;
-    padding: 0;
+    margin: auto;
+    padding: auto;
+
 }
 .flexible-part{
     display: flex;
-    width: 100%;
+    margin-top: 80px;
 }
-.text-part{
-    width: 50%;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 120px;
-}
-.text-part h1{
-    font-size: 39px;
-    font-weight: 900;
-    line-height: 12px;
-}
-.text-part p{
+.common-part{
+    width: 40%;
+    padding-left: 5%;
     text-align: justify;
-    padding-top: 15px;
+    padding-right: 10px;
+    color: gray;
+}
+.common-part img{
+    width: 80%;
 }
 .orange-color{
     color: orange;
 }
-.image-part img{
-    width: 100%;
-    height: 90%;
-}
-.text-part a{
-    background-image: linear-gradient(orangered,tomato);
+.common-part a{
+    background-image: linear-gradient(tomato,orangered);
     color: white;
     text-decoration: none;
-    padding: 15px 40px;
+    padding: 10px 20px;
     border-radius: 50px;
-    line-height: 90px;
-    font-weight: 600;
+    line-height: 70px;
+    font-weight: 500;
 }
+.common-part h2{
+    color: gray;
+}
+.gaping{
+    margin-left: 5%;
+    margin-top: 50px;
+}
+.image-resize img{
+    width: 50%;
+    height: 92%;
+    margin-left: 170px;
+    margin-top: 29px;
+}
+.background-add{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.text-gapping{
+    margin-top: 20px;
+}
+.recipies-area{
+    text-align: center;
+    margin: 60px;
+}
+.recipies-area p{
+    padding: 10px;
+    
+}
+
 
 

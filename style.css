@@ -4,4 +4,33 @@ body{
     margin-right: auto;
     width: 1024px;
 }
+.flexible-part{
+    display: flex;
+    width: 100%;
+}
+.text-part{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 150px;
+    padding: 2em;
+}
+.text-part h1{
+    font-size: 25px;
+    font-weight: 900;
+}
+.orange-color{
+    color: orange;
+}
+.image-part img{
+    width: 100%;
+}
+.text-part a{
+    background-image: linear-gradient(orangered,tomato);
+    color: white;
+    text-decoration: none;
+    padding: 15px 40px;
+    border-radius: 50px;
+}
+
 
